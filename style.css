@@ -1,0 +1,64 @@
+@charset "UTF-08";
+
+@import url(reset.css);
+@import url(variaveis.css);
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 50px;
+    /* border: 1px solid rgb(146, 133, 133); */
+    max-width: 1920px;
+    min-width: 647px;
+    padding: 5px 40px 10px;
+   
+}
+form{
+    background-color: rgba(180, 180, 160, 0.493);
+    border-radius: 0px 11px 11px 0px;
+}
+
+#ipesq{
+    height: 38px;
+    width: 410px;
+    padding: 0px;
+    border: 0.5px solid rgba(177, 166, 166, 0.699);
+    border-radius: 4px;
+
+}
+
+#usuario{
+    display: inline-flex;
+    
+    height: 30px;
+    width: 30px;
+    /* padding: 10px; */
+    border: 0px solid red;
+    border-radius: 50%;
+    background-color: aqua;
+}
+ #one{
+    display: inline-flex;
+    width: 150px;
+    height: auto;
+    justify-content: space-around;
+    /* position: relative;
+    left: 40px; 
+    Vou usar o padding*/
+ }
+
+ #three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+ }
+
+ button{
+    height: 38px;
+    width: 10px;
+ }
