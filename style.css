@@ -66,3 +66,20 @@ form{
     height: 38px;
     width: 10px;
  }
+ main{
+    display: grid;
+    height: 900px;
+    max-width: 1920px;
+    min-width: 647px;
+    border: 1px solid red;
+ }
+
+.primeiro > p{
+    height: 92px;
+    width: 597px;
+
+    position: relative;
+    left: 10px; 
+    /* voltar! */
+}
+
