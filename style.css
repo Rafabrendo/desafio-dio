@@ -50,12 +50,16 @@ form{
     Vou usar o padding*/
  }
 
- #three{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ #second > form{
+    width: 451px;;
+ }
+
+ #a-second{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
-    
+    top: 5px;
  }
 
  button{
