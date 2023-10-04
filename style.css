@@ -69,7 +69,7 @@ form{
  }
  main{
     display: flex;
-    height: 900px;
+    height: 1030px;
     max-width: 1920px;
     min-width: 1752px;
     /* border: 1px solid red; */
@@ -98,8 +98,12 @@ form{
 
 .segundo{
     width: 442px;
-    height: 893px;
-    border: 1px solid green;
+    height: 1024px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     
     
 }
