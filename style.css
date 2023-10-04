@@ -58,8 +58,9 @@ form{
     height: 30px;
     width: 30px;
     background-color: rgba(0, 0, 0, 0);
-    position: relative;
-    top: 5px;
+    /* position: relative; */
+    /* top: 5px; */
+    vertical-align: middle;
  }
 
  button{
@@ -67,19 +68,40 @@ form{
     width: 10px;
  }
  main{
-    display: grid;
+    display: flex;
     height: 900px;
     max-width: 1920px;
-    min-width: 647px;
-    border: 1px solid red;
+    min-width: 1752px;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--cor3);
+    padding-top: 40px;
+    
+ }
+
+ .primeiro{
+    width: 957px;
+    height: 667px;
+    position: relative;
+    left: 150px;
  }
 
 .primeiro > p{
     height: 92px;
     width: 597px;
 
-    position: relative;
-    left: 10px; 
+    /* position: relative;
+    left: 10px;  */
     /* voltar! */
 }
+
+.segundo{
+    width: 442px;
+    height: 893px;
+    border: 1px solid green;
+    
+    
+}
+
 
