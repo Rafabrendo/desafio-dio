@@ -96,6 +96,30 @@ form{
     /* voltar! */
 }
 
+.classNav{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 65px;
+    justify-content: space-between;
+    
+}
+
+.classNav > div{
+    
+    width: 135px;
+    height: 55px;
+    display: inline-flex;
+    text-align: center;
+    
+}
+
+.classNav > div > img{
+    width: 24px;
+    height: 24px;
+}
+
+
 .segundo{
     width: 442px;
     height: 1024px;
