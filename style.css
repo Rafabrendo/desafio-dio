@@ -99,15 +99,15 @@ form{
 .classNav{
     display: flex;
     flex-direction: row;
-    width: 900px;
-    height: 65px;
+    width: 933px;
+    height: 55px;
     justify-content: space-between;
     
 }
 
 .classNav > div{
     
-    width: 135px;
+    width: 170px;
     height: 55px;
     display: inline-flex;
     text-align: center;
@@ -117,6 +117,26 @@ form{
 .classNav > div > img{
     width: 24px;
     height: 24px;
+}
+
+
+.classNavDio > h3 {
+    width: 40px;
+    height: fit-content;
+    position: relative;
+    left: 20px;
+    
+}
+
+.classNavDio > p{
+    width: 130px;
+    height: 17px;
+    font-size: 16px;
+    position: relative;
+    
+   
+    right: 13px;
+    top: 20px;
 }
 
 
