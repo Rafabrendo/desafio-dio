@@ -96,35 +96,52 @@ form{
     /* voltar! */
 }
 
+nav{
+    margin: 0px;
+    height: 35px;
+}
+
 .classNav{
     display: flex;
     flex-direction: row;
-    width: 933px;
-    height: 55px;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 1022px;
+    height: 51px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    position: relative;
+    bottom: 22px;
+    align-self: center;
+    
     
 }
 
 .classNav > div{
-    
-    width: 170px;
+   
     height: 55px;
+    width: 162px;
+    height: 55px;
+    display: -webkit-box;
+     /*
     display: inline-flex;
-    text-align: center;
+    text-align: center; */
+    
     
 }
 
 .classNav > div > img{
-    width: 24px;
+    /* width: 24px;
     height: 24px;
+ */
 }
-
 
 .classNavDio > h3 {
     width: 40px;
     height: fit-content;
     position: relative;
-    left: 20px;
+    left: 6px;
     
 }
 
@@ -135,7 +152,7 @@ form{
     position: relative;
     
    
-    right: 13px;
+    right: 33px;
     top: 20px;
 }
 
@@ -151,12 +168,18 @@ form{
     
 }
 
-
+.sidebar{
+    animation-name: slideLeft;
+    animation-duration: 2s; 
+}
 
 .segundo :hover{
     background-color: rgb(245, 245, 245);
+    animation-name: slideLeft;
+    animation-duration: 2s;
     
-    
-  
-    
+}
+
+@keyframes slideLeft{
+    form{transform: translateX(100%)}
 }
