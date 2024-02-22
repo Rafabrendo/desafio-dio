@@ -1,0 +1,15 @@
+@charset "UTF-08";
+
+@import url(reset.css);
+
+head{
+    display: flex;
+}
+
+#imagemDaPessoa{
+    height: 30px;
+    margin: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    border-color: 1px solid red;
+}
