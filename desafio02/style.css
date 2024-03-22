@@ -2,14 +2,15 @@
 
 @import url(reset.css);
 
-head{
+header{
+    height: 54px;
+    width: 100vw;
+    padding: 0 0.5rem;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
-#imagemDaPessoa{
-    height: 30px;
-    margin: 30px;
-    border-radius: 50%;
-    background-color: aqua;
-    border-color: 1px solid red;
-}
+/*Continuar...  */
