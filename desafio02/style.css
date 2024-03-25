@@ -3,7 +3,7 @@
 @import url(reset.css);
 
 header{
-    height: 54px;
+    height: 48px;
     width: 100vw;
     padding: 0 0.5rem;
     display: flex;
@@ -11,6 +11,53 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+} 
+/* 
+header{
+    display: grid;
+    height: 54px;
+    padding: 0 0.5rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; 
+    align-items: center;
+}
+*/
+.divHeader{
+    width: 133px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
 }
 
-/*Continuar...  */
+.pesq{
+    position: absolute;
+    left: 40%;
+}
+
+.divHeader #ipesq{ 
+    width: 462px;
+    height: 28px;;
+    border: 1px solid black; 
+    border-radius: 4px 0px 0px 4px;
+}
+
+.divHeader #imgPersonagem{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.pesq img{
+    background-color: rgb(209, 199, 186);
+    border-radius: 0px 4px 4px 0px;
+    height: 28px;
+}
+    
+
+
