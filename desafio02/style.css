@@ -4,7 +4,7 @@
 
 header{
     height: 48px;
-    width: 100vw;
+    width: 99vw;
     padding: 0 0.5rem;
     display: flex;
     flex-direction: row;
@@ -54,10 +54,41 @@ header{
 }
 
 .pesq img{
-    background-color: rgb(209, 199, 186);
+    background-color: rgb(204, 204, 204);
     border-radius: 0px 4px 4px 0px;
     height: 28px;
 }
-    
 
+main{
+    display: grid;
+    width: 100vw;
+    height: 94vh;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 4fr;
+    border-top: 1px solid rgba(216, 207, 207, 0.301);
+    overflow: hidden;
+}
+
+main .sidebar{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.sidebar .divSidebar{
+    width: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sidebar .divSidebar p{
+    font-size: 15px;
+    display: inline-block;
+    width: 77px;
+}
 
