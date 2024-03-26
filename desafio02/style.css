@@ -126,3 +126,36 @@ main .sidebar{
     grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr;
     grid-template-rows: [r1] 1fr [r2] 1fr [r3] 1fr;
 }
+
+.divSection{
+    height:  274px;;
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;    
+    justify-items: center;
+    align-items: end;
+}
+
+/* .parteDeBaixo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+.parteDeBaixo{
+    margin-top: 5px;
+    width: 255px;
+    height: 94px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+#imagem2{
+    grid-area: 1 / 1 / 3 / 2;
+    
+}
