@@ -54,3 +54,18 @@ header{
     font-family: "Open Sans";
     font-weight: 400;
 }
+
+main section{
+    height: 428px;
+    min-width: 380px;
+    max-width: 445px;
+}
+
+main section:nth-child(even){
+    background-color: #ffffffc7;
+
+}
+
+main section:nth-child(odd){
+    background-color: #F6F6F6;
+}
