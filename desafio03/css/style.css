@@ -104,7 +104,7 @@ section p{
     line-height: 20px;
 }
 
-@media screen and (min-width: 440px ) {
+@media screen and (min-width: 440px) and (max-width: 650px) {
     
     header{
         display: flex;
@@ -125,9 +125,78 @@ section p{
     }
 
     .divHeaderB{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .divHeader .divHeaderB button{
+        border-radius: 28px;
+        height: auto;
+        width: auto;
+        padding: 15px;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 400;
+}
+    
+}
+
+@media screen and (min-width: 650px){
+    
+    header{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100%;
+        min-width: none;
+        background-image: url("../imagens/imagensDesktop/Header\ Background\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+    }
+
+    .divHeader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .divHeaderB{
+        height: auto;
         display: flex;
         flex-direction: row;
         gap: 20px
     }
     
+    .divHeader .divHeaderB button{
+        border-radius: 28px;
+        height: auto;
+        width: auto;
+        padding: 15px;
+        text-align: center;
+        font-family: "Open Sans";
+        font-weight: 400;
+}   
+
+    .divHeader p{
+        color: #ffff;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        text-align: center;
+}
+
+    #idP1{
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        color: #ffff;
+        font-size: calc(3rem + 1vw);
+        width: 430px;
+}
+
 }
