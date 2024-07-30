@@ -7,7 +7,7 @@
 
 https://rafabrendo.github.io/desafio-dio/
 
-https://rafabrendo.github.io/desafio-dio/desafio01
-https://rafabrendo.github.io/desafio-dio/desafio02
-https://rafabrendo.github.io/desafio-dio/desafio03
+https://rafabrendo.github.io/desafio-dio/desafio01 <br>
+https://rafabrendo.github.io/desafio-dio/desafio02  <br>
+https://rafabrendo.github.io/desafio-dio/desafio03  <br>
 
