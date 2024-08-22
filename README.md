@@ -7,7 +7,7 @@
 
 https://rafabrendo.github.io/desafio-dio/
 
-https://rafabrendo.github.io/desafio-dio/desafio01 <br>
-https://rafabrendo.github.io/desafio-dio/desafio02  <br>
-https://rafabrendo.github.io/desafio-dio/desafio03  <br>
+<a href="https://rafabrendo.github.io/desafio-dio/desafio01">Youtube</a> <br>
+<a href="https://rafabrendo.github.io/desafio-dio/desafio02">Youtube part 2</a>  <br>
+<a href="https://rafabrendo.github.io/desafio-dio/desafio03">Discord</a>  <br>
 
